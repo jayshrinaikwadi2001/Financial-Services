@@ -1,0 +1,35 @@
+/* 
+<div className={style.homepageContainer}>
+        <div className={style.navBarCantainer}>
+          <Navbar />
+        </div>
+        <div className={style.mainContaintContainer}>
+          <MainContainer />
+        </div>
+      </div>
+*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepageContainer {
+  height: 99vh;
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+  gap: 0.5%;
+}
+
+.navBarCantainer {
+  height: 6%;
+  width: 100%;
+}
+
+.mainContaintContainer {
+  height: 92%;
+  width: 100vw;
+  /* border: 2px solid black; */
+}
